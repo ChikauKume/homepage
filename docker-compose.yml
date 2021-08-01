@@ -14,8 +14,7 @@ services:
       WORDPRESS_DB_PASSWORD: examplepass
       WORDPRESS_DB_NAME: exampledb
     
-    volumes:
-      - wordpress:/var/www/html
+    volumes: ['./:/var/www/html']
 
   db:
     container_name: db-baseAppLabo
