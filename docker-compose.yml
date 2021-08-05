@@ -1,25 +1,27 @@
 version: '3.1'
-  
+
 services:
 
   wordpress:
     container_name: wp-baseAppLabo
-    image: wordpress
+    build: 
+      context: .
+      dockerfile: ./dockerfiles/wordpress/Dockerfile
     restart: always
     ports:
       - 80:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: exampleuser
-      WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
-    
-    volumes: ['./:/var/www/html']
+      WORDPRESS_DB_USER: chikau
+      WORDPRESS_DB_PASSWORD: ChikauKume0730
+      WORDPRESS_DB_NAME: baseAppLabo
+    volumes:
+      - ./:/var/www/html
 
   db:
-    container_name: db-baseAppLabo
     image: mysql:5.7
     restart: always
+    container_name: db-baseAppLabo
     environment:
       MYSQL_DATABASE: baseAppLabo
       MYSQL_USER: chikau
