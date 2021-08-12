@@ -5,3 +5,14 @@
 @import "@fortawesome/fontawesome-free/scss/regular";
 @import "@fortawesome/fontawesome-free/scss/solid";
 @import "@fortawesome/fontawesome-free/scss/fontawesome";
+
+
+.topImg_sm {
+    min-height: 55vh;
+}
+.topImg_md {
+    min-height: 60vh;
+}
+.topImg_lg {
+    min-height: 65vh;
+}

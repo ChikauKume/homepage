@@ -17,12 +17,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>Base App Labo</title>
+    <title>Chikau Kume</title>
   </head>
   <body class="text-gray-800 antialiased">
     <nav
-      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-2 "
-    >
+      class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-2 ">
       <div
         class="container px-4 mx-auto flex flex-wrap items-center justify-between"
       >
@@ -31,63 +30,23 @@
         >
           <a
             class="text-2xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-gray-100"
-            href="https://www.creative-tim.com/learning-lab/tailwind-starter-kit#/presentation"
-            >Base App Labo</a
-          ><button
-            class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
-            type="button"
-            onclick="toggleNavbar('example-collapse-navbar')"
+            href="#"
+            >Chikau Kume</a
           >
-            <i class="text-white fas fa-bars"></i>
-          </button>
         </div>
         <div
           class="lg:flex flex-grow items-center bg-white lg:bg-transparent lg:shadow-none hidden"
           id="example-collapse-navbar"
         >
-          <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="text-gray-300 fab fa-facebook text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Share</span></a
-              >
-            </li>
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-twitter text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Tweet</span></a
-              >
-            </li>
-            <li class="flex items-center">
-              <a
-                class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
-                href="#pablo"
-                ><i
-                  class="lg:text-gray-300 text-gray-500 fab fa-github text-lg leading-lg "
-                ></i
-                ><span class="lg:hidden inline-block ml-2">Star</span></a
-              >
-            </li>
-          </ul>
         </div>
       </div>
     </nav>
     <main class="bg-gray-200">
       <div
-        class="relative pt-16 pb-20 flex content-center items-center justify-center"
-        style="min-height: 80vh;"
-      >
+        class="relative pt-16 pb-20 flex content-center items-center justify-center topImg_lg">
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover bg-black opacity-90"
-          style='background-image: url("/wp-content/themes/baseAppLabo_v4/img/top.jpg");'
+          style='background-image: url("/wp-content/themes/baseAppLabo_v4/img/laptop.jpg");'
         >
           <span
             id="blackOverlay"
@@ -96,42 +55,40 @@
         </div>
         <div class="container relative mx-auto" data-aos="fade-in">
           <div class="items-center flex flex-wrap">
-            <div class="w-full lg:w-7/12 px-4 ml-auto mr-auto text-center">
-              <div class="pr-12">
-                <h1 class="text-gray-100 font-semibold text-5xl">
+            <div class="w-full lg:w-7/12 px-4 mt-8 ml-auto mr-auto text-center">
+                <h1 class="text-gray-100 font-semibold sm:text-3xl md:text-4xl lg:text-5xl text-3xl">
                         <span class="text-gray-100">Get the App you want</span> 
                     </span>    
                 </h1>
-                <p class="mt-4 text-2xl text-gray-100">
-                    Welcome to Base App Labo. We're serving a great web service.
+                <p class="mt-4 sm:text-xl md:text-xl lg:text-2xl text-gray-100">
+                    Serving great web systems.
                 </p>
-              </div>
             </div>
           </div>
         </div>
       </div>
-      <section class="relative py-20">
+      <section class="relative py-3 md:pt-20 md:pb-10 lg:pt-20 pt-16">
         <div
           class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
           style="height: 80px;"
         >
         </div>
         <div class="container mx-auto px-4">
-          <div class="items-center flex flex-wrap">
-            <div class="w-full md:w-4/12 ml-auto mr-auto px-4" data-aos="fade-right">
+          <div class="items-center flex flex-wrap md:justify-center lg:justify-start">
+            <div class="w-full md:w-4/12 mx-6 flex justify-center lg:justify-end" data-aos="fade-right">
               <img
                 alt="..."
-                class="max-w-full rounded-lg shadow-lg"
-                src="/wp-content/themes/baseAppLabo_v4/img/coding.jpeg"
+                class="object-cover h-64 lg:h-72 max-w-full rounded-lg shadow-lg"
+                src="/wp-content/themes/baseAppLabo_v4/img/self.jpg"
               />
             </div>
-            <div class="w-full md:w-6/12 mt-12 md:mt-0 lg:mt-0 mx-auto px-4" data-aos="fade-left">
+            <div class="w-full md:w-6/12 mt-8 md:mt-0 lg:mt-0 px-6 flex justify-center text-center" data-aos="fade-left">
               <div class="md:pr-12">
-                <h3 class="text-3xl font-semibold">What is Base App Labo ?</h3>
-                <p class="mt-4 text-lg leading-relaxed text-gray-600">
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta vel maxime, qui quae numquam dolorem ad eos perspiciatis nulla magnam excepturi quam suscipit possimus quos, rerum eveniet iure facere deserunt!
+              <h2 class="text-2xl md:text-3xl lg:text-3xl font-semibold">Who am I ?</h2>
+                <p class="mt-3 text-sm md:text-lg lg:text-lg leading-relaxed text-gray-600 text-left">
+                    Hi, I'm <span class="font-bold">Chikau Kume</span>. I work as a IT related project manager for 2 years in the Philipine. I ususally communicate with Philipino programmers and proceed the project together. I'm interested in creating web applications with modern skills especailly backend such as Laravel. 
                 </p>
-                <ul class="list-none mt-6">
+                <!-- <ul class="list-none mt-6">
                   <li class="py-2">
                     <div class="flex items-center">
                       <div>
@@ -180,158 +137,212 @@
                       </div>
                     </div>
                   </li>
-                </ul>
+                </ul> -->
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="pt-0 pb-48">　
-        <div class="container mx-auto px-4">
-          <div class="flex flex-wrap justify-center text-center mb-6">
-            <div class="w-full lg:w-2/3 px-4">
-              <h2 class="text-4xl font-semibold">Skills</h2>
-              <p class="text-lg leading-relaxed m-4 text-gray-600">
-                According to the National Oceanic and Atmospheric
-                Administration, Ted, Scambos, NSIDClead scentist, puts the
-                potentially record maximum.
-              </p>
+      <section class="pt-10 pb-5 lg:pb-20 md:pb-5">
+        <div class="container mx-auto px-4" data-aos="fadein">
+          <div class="flex flex-wrap justify-center text-center mb-6" >
+            <div class="w-full lg:w-6/12 px-4">
+              <h2 class="text-3xl md:text-4xl lg:text-4xl font-semibold">Skills</h2>
             </div>
           </div>
-          <div class="flex flex-wrap">
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
-              <div class="px-6">
+          <div class="w-9/12 flex flex-wrap mx-auto justify-center">
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
+              <div class="px-6 ">
                 <img
-                  alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/laravel.jpg"
-                  class="shadow-lg rounded-full w-1/2 max-w-full mx-auto"
+                  src="/wp-content/themes/baseAppLabo_v4/img/frontend.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px; height: 120px;"
                 />
-                <div class="pt-3 text-center">
-                  <h5 class="text-xl font-bold">Laravel</h5>
+                <div class="pt-6 text-center">
+                  <h5 class="text-base font-bold">HTML & CSS & JS</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Advanced Intermediate
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
+              <div class="px-6">
+                <img
+                  src="/wp-content/themes/baseAppLabo_v4/img/laravel.jpg"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Laravel</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Advanced Intermediate
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
               <div class="px-6">
                 <img
                   alt="..."
                   src="/wp-content/themes/baseAppLabo_v4/img/vue.jpg"
-                  class="shadow-lg rounded-full w-1/2 h-full mx-auto"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
                 />
-                <div class="pt-3 text-center">
-                  <h5 class="text-xl font-bold">Vue JS</h5>
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Vue.js</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Intermediate
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
               <div class="px-6">
                 <img
                   alt="..."
                   src="/wp-content/themes/baseAppLabo_v4/img/wp.png"
-                  class="shadow-lg rounded-full w-1/2 max-w-full mx-auto"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
                 />
-                <div class="pt-3 text-center">
+                <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">WordPress</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Beginner
+                  </p>
                 </div>
               </div>
             </div>
-            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4">
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="/wp-content/themes/baseAppLabo_v4/img/bootstrap.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Bootstrap</h5>
+                  <p class="text-sm text-gray-500 uppercase font-semibold">
+                    Intermediate
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="/wp-content/themes/baseAppLabo_v4/img/tailwind.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Tailwind CSS</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Beginner
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
+              <div class="px-6">
+                <img
+                  alt="..."
+                  src="/wp-content/themes/baseAppLabo_v4/img/docker.png"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
+                />
+                <div class="pt-6 text-center">
+                  <h5 class="text-xl font-bold">Docker</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Intermediate
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
               <div class="px-6">
                 <img
                   alt="..."
                   src="/wp-content/themes/baseAppLabo_v4/img/aws.jpeg"
-                  class="shadow-lg rounded-full w-1/2 max-w-full mx-auto"
+                  class="shadow-lg rounded-full max-w-full mx-auto"
+                  style="max-width: 120px;"
                 />
-                <div class="pt-3 text-center">
+                <div class="pt-6 text-center">
                   <h5 class="text-xl font-bold">AWS</h5>
+                  <p class="mt-1 text-sm text-gray-500 uppercase font-semibold">
+                    Beginner
+                  </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="pb-20 relative block bg-gray-900 lg:pt-0">
-        <div
-          class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
-          style="height: 80px;"
-        >
-        </div>
-        <div class="container mx-auto px-4 lg:pt-16 lg:pb-48">
-          <div class="flex flex-wrap text-center justify-center">
-            <div class="w-full px-4 py-6">
-              <h2 class="text-4xl font-semibold text-white">Contact me</h2>
-              <p class="text-lg leading-relaxed mt-4 mb-4 text-gray-500">
-                Contact me to ask any questions.
-              </p>
+      <section class="lg:pb-10 md:py-5">
+        <div class="container mx-auto px-4" data-aos="fadein">
+          <div class="flex flex-col mx-0 justify-center text-center mb-6" >
+            <div class="w-full px-4">
+              <h2 class="text-3xl md:text-4xl lg:text-4xl font-semibold">Working History</h2>
             </div>
-          </div>
-        </div>
-      </section>
-      <section class="relative block py-24 lg:pt-0 bg-gray-900">
-        <div class="container mx-auto px-4 w-full lg:w-full md:w-2/3 sm:w-3/4">
-          <div class="flex flex-wrap justify-center lg:-mt-64 -mt-48">
-            <div class="w-full lg:w-6/12 px-4">
-              <div
-                class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-gray-300"
-              >
-                <div class="flex-auto p-5 lg:p-10">
-                  <div class="relative w-full mb-3 mt-8">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="full-name"
-                      >Full Name</label
-                    ><input
-                      type="text"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Full Name"
-                      style="transition: all 0.15s ease 0s;"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="email"
-                      >Email</label
-                    ><input
-                      type="email"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Email"
-                      style="transition: all 0.15s ease 0s;"
-                    />
-                  </div>
-                  <div class="relative w-full mb-3">
-                    <label
-                      class="block uppercase text-gray-700 text-xs font-bold mb-2"
-                      for="message"
-                      >Message</label
-                    ><textarea
-                      rows="4"
-                      cols="80"
-                      class="border-0 px-3 py-3 placeholder-gray-400 text-gray-700 bg-white rounded text-sm shadow focus:outline-none focus:ring w-full"
-                      placeholder="Type a message..."
-                    ></textarea>
-                  </div>
-                  <div class="text-center mt-6">
-                    <button
-                      class="bg-gray-900 text-white active:bg-gray-700 text-sm font-bold uppercase px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1"
-                      type="button"
-                      style="transition: all 0.15s ease 0s;"
-                    >
-                      Send Message
-                    </button>
-                  </div>
-                </div>
+            <div class="lg:w-8/12 md:w-full flex flex-col mx-auto md:justify-center lg:justify-start justify-center px-5 lg:px-0 md:pl-10 px-10">
+
+              <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-10">
+                <p class="mr-4">2020/08 〜 | Kredo IT Abroad.inc :</p>
+                <p>Working as a IT related Project Director.</p>
+              </div>
+              <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
+                <p class="mr-4">2019/10 〜 20/07 | Emphtech.inc:</p>
+                <p class="text-left md:text-center lg:text-center">Working as a Bridge engineeer between Japan and Philipine.</p>
+              </div>
+              <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
+                <p class="mr-4">2019/01 〜 05 | C tag.inc :</p>
+                <p>Working as a Laravel engineer.</p>
+              </div>
+              <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
+                <p class="mr-4">2018/05 〜 07 | Mitsucari.inc </p>
+                <p>Studying Ruby on Rails as an internship</p>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section>
-        <?php 
-            echo get_template_part('layouts/modal.php');
-        ?>
+      <section class="relative py-3 md:pt-0 lg:pt-5 pb-20">
+        <div class="container px-8 md:mx-auto lg:mx-auto px-4">
+          <div class="items-center flex flex-wrap justify-center">
+            <div class="w-full px-4 text-center my-8">
+              <h2 class="text-3xl md:text-4xl lg:text-4xl font-semibold">Product</h2>
+            </div>
+            <div class="w-full md:w-4/12 mx-6 flex justify-center lg:justify-end" data-aos="fade-right">
+              <a href="https://feedback-portal.herokuapp.com/"  target="_blank" rel="noopener noreferrer">
+                <img
+                  alt="..."
+                  class="object-cover max-w-full rounded-lg shadow-lg"
+                  src="/wp-content/themes/baseAppLabo_v4/img/feedback.png"
+                />
+                <p class="mt-2 text-xs md:text-xs lg:text-base font-semibold">Click the image and access the application.</p>
+              </a>
+            </div>
+            <div class="w-full md:w-6/12 mt-8 md:mt-0 lg:mt-0 px-0 flex justify-center text-center" data-aos="fade-left">
+              <div>
+                <h2 class="md:text-2xl lg:text-3xl font-semibold">Feedback Application</h2>
+                  <div class="mt-3 text-sm md:text-base lg:text-lg leading-relaxed text-gray-600 md:text-left lg:text-center text-left">
+                    <p>
+                      Developed a feedback system that is easy to track lesson.
+                    </p>
+                    <ul class="mt-2">
+                        <li>- Reduced the time it takes to create feedback</li>
+                        <li>- Improved the ease of managing feedback</li>
+                    </ul>
+                  </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer class="relative bg-gray-300 pt-8 pb-6">
+    <footer class="relative bg-gray-900 pt-8 pb-3">
       <div
         class="bottom-auto top-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden -mt-20"
         style="height: 80px;"
@@ -339,104 +350,30 @@
       </div>
       <div class="container mx-auto px-4">
         <div class="flex flex-wrap">
-          <div class="w-full lg:w-6/12 px-4">
-            <h4 class="text-3xl font-semibold">Follow me in social media.</h4>
-            <div class="mt-6">
+          <div class="w-full lg:w-6/12 px-4 mb-8 md:mb-8 lg:mb-0 px-0">
+            <h4 class="text-2xl text-white font-semibold md:text-3xl lg:text-3xl mb-4">Contact me in social media.</h4>
+            <div class="mt-3 md:mt-6 lg:mt-6 flex justify-center sm:justify-start md:justify-start lg:justify-start">
                 <button
-                    class="modal-open bg-white text-green-600 shadow-lg font-normal h-20 w-20 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
+                    onclick="location.href = 'https://www.facebook.com/kume.chikau.7'"
+                    class="bg-white text-indigo-600 shadow-lg font-normal h-20 w-20 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                 >
-                    <i class="flex text-4xl fab fa-line"></i>
+                    <i class="flex text-4xl fab fa-facebook-square"></i>
                 </button>
                 <button
+                    onclick="location.href = 'https://github.com/ChikauKume'"
                     class="bg-white text-gray-800 shadow-lg font-normal h-20 w-20 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                 >
                     <i class="flex text-4xl fab fa-github"></i>
                 </button>
                 <button
+                    onclick="location.href = 'https://www.linkedin.com/in/chikau-kume-5851811b4/'"
                     class="bg-white text-blue-600 shadow-lg font-normal h-20 w-20 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2"
                     type="button"
                 >
                     <i class="flex text-4xl fab fa-linkedin"></i>
                 </button>
-
-            </div>
-          </div>
-          <div class="w-full lg:w-6/12 px-4">
-            <div class="flex flex-wrap items-top mb-6">
-              <div class="w-full lg:w-4/12 px-4 ml-auto">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                  >Useful Links</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/presentation"
-                      >About Us</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://blog.creative-tim.com"
-                      >Blog</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.github.com/creativetimofficial"
-                      >Github</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://www.creative-tim.com/bootstrap-themes/free"
-                      >Free Products</a
-                    >
-                  </li>
-                </ul>
-              </div>
-              <div class="w-full lg:w-4/12 px-4">
-                <span
-                  class="block uppercase text-gray-600 text-sm font-semibold mb-2"
-                  >Other Resources</span
-                >
-                <ul class="list-unstyled">
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://github.com/creativetimofficial/argon-design-system/blob/master/LICENSE.md"
-                      >MIT License</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/terms"
-                      >Terms &amp; Conditions</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/privacy"
-                      >Privacy Policy</a
-                    >
-                  </li>
-                  <li>
-                    <a
-                      class="text-gray-700 hover:text-gray-900 font-semibold block pb-2 text-sm"
-                      href="https://creative-tim.com/contact-us"
-                      >Contact Us</a
-                    >
-                  </li>
-                </ul>
-              </div>
             </div>
           </div>
         </div>
@@ -447,79 +384,16 @@
         </div>
       </div>
     </footer>
-
-    <!--Modal-->
-    <div class="modal opacity-0 pointer-events-none fixed w-full h-full top-0 left-0 flex items-center justify-center">
-        <div class="modal-overlay absolute w-full h-full bg-black opacity-50"></div>
-        
-        <div class="modal-container bg-white w-11/12 md:max-w-md mx-auto rounded shadow-lg z-50 overflow-y-auto">
-
-
-        <!-- Add margin if you want to see some of the overlay behind the modal-->
-        <div class="modal-content py-4 text-left px-6">
-            <!--Title-->
-            <div class="flex justify-between items-center pb-3">
-            <p class="text-2xl font-bold">QR code</p>
-            <div class="modal-close cursor-pointer z-50">
-                <svg class="fill-current text-black" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 18 18">
-                <path d="M14.53 4.53l-1.06-1.06L9 7.94 4.53 3.47 3.47 4.53 7.94 9l-4.47 4.47 1.06 1.06L9 10.06l4.47 4.47 1.06-1.06L10.06 9z"></path>
-                </svg>
-            </div>
-            </div>
-
-            <!--Body-->
-            <div class="w-full h-full flex items-center">
-                <img src="/wp-content/themes/baseAppLabo_v4/img/line_qr.jpg" alt="">
-            </div>
-
-        </div>
-        </div>
-    </div>
   </body>
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.min.js"></script>
+
   <script>
       AOS.init({
         delay: 200,
         duration: 1200,
         once: true
       });
-
-      var openmodal = document.querySelectorAll('.modal-open')
-        for (var i = 0; i < openmodal.length; i++) {
-        openmodal[i].addEventListener('click', function(event){
-            event.preventDefault()
-            toggleModal()
-        })
-        }
-        
-        const overlay = document.querySelector('.modal-overlay')
-        overlay.addEventListener('click', toggleModal)
-        
-        var closemodal = document.querySelectorAll('.modal-close')
-        for (var i = 0; i < closemodal.length; i++) {
-        closemodal[i].addEventListener('click', toggleModal)
-        }
-        
-        document.onkeydown = function(evt) {
-        evt = evt || window.event
-        var isEscape = false
-        if ("key" in evt) {
-            isEscape = (evt.key === "Escape" || evt.key === "Esc")
-        } else {
-            isEscape = (evt.keyCode === 27)
-        }
-        if (isEscape && document.body.classList.contains('modal-active')) {
-            toggleModal()
-        }
-        };
-        
-        
-        function toggleModal () {
-        const body = document.querySelector('body')
-        const modal = document.querySelector('.modal')
-        modal.classList.toggle('opacity-0')
-        modal.classList.toggle('pointer-events-none')
-        body.classList.toggle('modal-active')
-        }
-  </script>
+ </script>
 </html>
