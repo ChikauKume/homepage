@@ -12,7 +12,7 @@
     />
     <link
       rel="stylesheet"
-      href="/wp-content/themes/baseAppLabo_v4/tailwind.css"
+      href="/wp-content/themes/homepage/tailwind.css"
     />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -46,7 +46,7 @@
         class="relative pt-16 pb-20 flex content-center items-center justify-center topImg_lg">
         <div
           class="absolute top-0 w-full h-full bg-center bg-cover bg-black opacity-90"
-          style='background-image: url("/wp-content/themes/baseAppLabo_v4/img/laptop.jpg");'
+          style='background-image: url("/wp-content/themes/homepage/img/laptop.jpg");'
         >
           <span
             id="blackOverlay"
@@ -79,7 +79,7 @@
               <img
                 alt="..."
                 class="object-cover h-64 lg:h-72 max-w-full rounded-lg shadow-lg"
-                src="/wp-content/themes/baseAppLabo_v4/img/self.jpg"
+                src="/wp-content/themes/homepage/img/self.jpg"
               />
             </div>
             <div class="w-full md:w-6/12 mt-8 md:mt-0 lg:mt-0 px-6 flex justify-center text-center" data-aos="fade-left">
@@ -154,7 +154,7 @@
             <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
               <div class="px-6 ">
                 <img
-                  src="/wp-content/themes/baseAppLabo_v4/img/frontend.png"
+                  src="/wp-content/themes/homepage/img/frontend.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px; height: 120px;"
                 />
@@ -169,7 +169,7 @@
             <div class="w-full md:w-6/12 lg:w-3/12 lg:mb-0 mb-12 px-4 mt-5">
               <div class="px-6">
                 <img
-                  src="/wp-content/themes/baseAppLabo_v4/img/laravel.jpg"
+                  src="/wp-content/themes/homepage/img/laravel.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -185,7 +185,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/vue.jpg"
+                  src="/wp-content/themes/homepage/img/vue.jpg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -201,7 +201,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/wp.png"
+                  src="/wp-content/themes/homepage/img/wp.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -217,7 +217,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/bootstrap.png"
+                  src="/wp-content/themes/homepage/img/bootstrap.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -233,7 +233,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/tailwind.png"
+                  src="/wp-content/themes/homepage/img/tailwind.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -249,7 +249,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/docker.png"
+                  src="/wp-content/themes/homepage/img/docker.png"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -265,7 +265,7 @@
               <div class="px-6">
                 <img
                   alt="..."
-                  src="/wp-content/themes/baseAppLabo_v4/img/aws.jpeg"
+                  src="/wp-content/themes/homepage/img/aws.jpeg"
                   class="shadow-lg rounded-full max-w-full mx-auto"
                   style="max-width: 120px;"
                 />
@@ -319,7 +319,7 @@
                 <img
                   alt="..."
                   class="object-cover max-w-full rounded-lg shadow-lg"
-                  src="/wp-content/themes/baseAppLabo_v4/img/feedback.png"
+                  src="/wp-content/themes/homepage/img/feedback.png"
                 />
                 <p class="mt-2 text-xs md:text-xs lg:text-base font-semibold">Click the image and access the application.</p>
               </a>
