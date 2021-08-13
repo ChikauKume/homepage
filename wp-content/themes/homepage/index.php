@@ -86,7 +86,7 @@
               <div class="md:pr-12">
               <h2 class="text-2xl md:text-3xl lg:text-3xl font-semibold">Who am I ?</h2>
                 <p class="mt-3 text-sm md:text-lg lg:text-lg leading-relaxed text-gray-600 text-left">
-                    Hi, I'm <span class="font-bold">Chikau Kume</span>. I work as a IT related project manager for 2 years in the Philipine. I ususally communicate with Philipino programmers and proceed the project together. I'm interested in creating web applications with modern skills especailly backend such as Laravel. 
+                    Hi, I'm <span class="font-bold">Chikau Kume</span>. I work as an IT related project manager for 2 years in the Philipines. I usually communicate with Filipino programmers and work some project together. I'm interested in creating web applications with modern skills especially backend such as Laravel. 
                 </p>
                 <!-- <ul class="list-none mt-6">
                   <li class="py-2">
