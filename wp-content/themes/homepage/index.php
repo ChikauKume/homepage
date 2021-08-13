@@ -289,20 +289,20 @@
             <div class="lg:w-8/12 md:w-full flex flex-col mx-auto md:justify-center lg:justify-start justify-center px-5 lg:px-0 md:pl-10 px-10">
 
               <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-10">
-                <p class="mr-4">2020/08 〜 | Kredo IT Abroad.inc :</p>
-                <p>Working as a IT related Project Director.</p>
+                <p class="mr-4">2020/08 〜 | Kredo IT Abroad.Inc :</p>
+                <p>Working as an IT related Project Director.</p>
               </div>
               <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
-                <p class="mr-4">2019/10 〜 20/07 | Emphtech.inc:</p>
-                <p class="text-left md:text-center lg:text-center">Working as a Bridge engineeer between Japan and Philipine.</p>
+                <p class="mr-4">2019/10 〜 20/07 | Emphtech.Inc:</p>
+                <p class="text-left md:text-center lg:text-center">Working as a Bridge Engineeer between Japan and Philippines.</p>
               </div>
               <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
-                <p class="mr-4">2019/01 〜 05 | C tag.inc :</p>
-                <p>Working as a Laravel engineer.</p>
+                <p class="mr-4">2019/01 〜 05 | C tag.Inc :</p>
+                <p>Working as a Laravel Engineer.</p>
               </div>
               <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
-                <p class="mr-4">2018/05 〜 07 | Mitsucari.inc </p>
-                <p>Studying Ruby on Rails as an internship</p>
+                <p class="mr-4">2018/05 〜 07 | Mitsucari.Inc </p>
+                <p>Studying Ruby on Rails as an Internship</p>
               </div>
             </div>
           </div>
