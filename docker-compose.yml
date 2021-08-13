@@ -3,7 +3,7 @@ version: '3.1'
 services:
 
   wordpress:
-    container_name: wp-baseAppLabo
+    container_name: wp-homepage
     build: 
       context: .
       dockerfile: ./dockerfiles/wordpress/Dockerfile
@@ -14,16 +14,16 @@ services:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: chikau
       WORDPRESS_DB_PASSWORD: ChikauKume0730
-      WORDPRESS_DB_NAME: baseAppLabo
+      WORDPRESS_DB_NAME: homepage
     volumes:
       - ./:/var/www/html
 
   db:
     image: mysql:5.7
     restart: always
-    container_name: db-baseAppLabo
+    container_name: db-homepage
     environment:
-      MYSQL_DATABASE: baseAppLabo
+      MYSQL_DATABASE: homepage
       MYSQL_USER: chikau
       MYSQL_PASSWORD: ChikauKume0730
       MYSQL_RANDOM_ROOT_PASSWORD: '1'
