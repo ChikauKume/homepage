@@ -1,10 +1,11 @@
 {
-  "name": "baseapplabo_v4",
+  "name": "homepage",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "postcss style.css -o tailwind.css"
+    "dev": "postcss style.css -o tailwind.css",
+    "build": "NODE_ENV=production postcss style.css -o tailwind.css"
   },
   "keywords": [],
   "author": "",
