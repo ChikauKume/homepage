@@ -290,7 +290,7 @@
 
               <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-10">
                 <p class="mr-4">2020/08 〜 | Kredo IT Abroad.Inc :</p>
-                <p>Working as an IT related Project Director.</p>
+                <p>Working as an IT Project Director.</p>
               </div>
               <div class="flex lg:flex-row flex-col text-sm xs:text-xs lg:text-lg md:text-base mt-6">
                 <p class="mr-4">2019/10 〜 20/07 | Emphtech.Inc:</p>
