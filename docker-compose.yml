@@ -8,13 +8,13 @@ services:
       context: .
       dockerfile: ./dockerfiles/wordpress/Dockerfile
     restart: always
-    ports:
-      - 80:80
     environment:
       WORDPRESS_DB_HOST: db
-      WORDPRESS_DB_USER: chikau
-      WORDPRESS_DB_PASSWORD: ChikauKume0730
-      WORDPRESS_DB_NAME: homepage
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      LETSENCRYPT_HOST: ${LETSENCRYPT_HOST}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
     volumes:
       - ./:/var/www/html
 
@@ -23,12 +23,32 @@ services:
     restart: always
     container_name: db-homepage
     environment:
-      MYSQL_DATABASE: homepage
-      MYSQL_USER: chikau
-      MYSQL_PASSWORD: ChikauKume0730
-      MYSQL_RANDOM_ROOT_PASSWORD: '1'
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
       - db:/var/lib/mysql
+
+
+  nginx:
+    image: linuxserver/letsencrypt
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./dockerfiles/nginx/config:/config
+      - ./dockerfiles/nginx/nginx.conf:/config/nginx/site-confs/default
+      - ./dockerfiles/nginx/ssl.conf:/config/nginx/ssl.conf
+    container_name: nginx
+    restart: unless-stopped
+    environment: 
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - URL=chikaukume.tk
+      - SUBDOMAINS=www,
+      - VALIDATION=http
+      - STAGING=false #optional
 
 volumes:
   wordpress:
