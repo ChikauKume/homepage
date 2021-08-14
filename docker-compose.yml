@@ -8,8 +8,6 @@ services:
       context: .
       dockerfile: ./dockerfiles/wordpress/Dockerfile
     restart: always
-    ports:
-      - 80:80
     environment:
       WORDPRESS_DB_HOST: db
       WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
@@ -28,6 +26,27 @@ services:
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     volumes:
       - db:/var/lib/mysql
+
+
+  nginx:
+    image: linuxserver/letsencrypt
+    ports:
+      - 80:80
+      - 443:443
+    volumes:
+      - ./docker/nginx/config:/config
+      - ./docker/nginx/nginx.conf:/config/nginx/site-confs/default
+      - ./docker/nginx/ssl.conf:/config/nginx/ssl.conf
+    container_name: nginx
+    restart: unless-stopped
+    environment: 
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - URL=chikaukume.tk
+      - SUBDOMAINS=www,
+      - VALIDATION=http
+      - STAGING=true #optional
 
 volumes:
   wordpress:
