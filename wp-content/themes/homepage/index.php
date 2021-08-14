@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="overflow-auto">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -19,7 +19,7 @@
 
     <title>Chikau Kume</title>
   </head>
-  <body class="text-gray-800 antialiased">
+  <body class="text-gray-800 overflow-hidden min-w-full">
     <nav
       class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-2 ">
       <div
